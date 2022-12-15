@@ -40,7 +40,7 @@ for await (const line of file.readLines()) {
   totalScore += inputs[roundInputs[0]][roundInputs[1]]
 }
 
-// Part One
+// Part Two
 console.log('What would your total score be if everything goes exactly according to your strategy guide?')
 console.log(totalScore)
 
